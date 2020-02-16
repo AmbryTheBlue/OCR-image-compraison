@@ -1,0 +1,1476 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{wiki:OCR}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedie},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Online; navštíveno 13. 01. 2020]}
+    \field{title}{Optické rozpoznávání znaků --- Wikipedie: Otevřená
+  encyklopedie}
+    \verb{url}
+    \verb https://cs.wikipedia.org/w/index.php?title=Optick%C3%A9_rozpozn%C3%A1
+    \verb v%C3%A1n%C3%AD_znak%C5%AF&oldid=17658829
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{chaudhuri2017optical}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CA}{%
+         family={Chaudhuri},
+         familyi={C\bibinitperiod},
+         given={Arindam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Mandaviya},
+         familyi={M\bibinitperiod},
+         given={Krupa},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KGS}{%
+         family={K\bibnamedelima Ghosh},
+         familyi={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Soumya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Badelia},
+         familyi={B\bibinitperiod},
+         given={Pratixa},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{CA+1}
+    \strng{fullhash}{CAMKKGSBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Optical character recognition systems for different languages
+  with soft computing}
+    \field{year}{2017}
+  \endentry
+
+  \entry{eikvil-ocr}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EL}{%
+         family={Eikvil},
+         familyi={E\bibinitperiod},
+         given={Line},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Citeseer}%
+    }
+    \strng{namehash}{EL1}
+    \strng{fullhash}{EL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Optical character recognition}
+    \field{year}{1993}
+  \endentry
+
+  \entry{soft_fuzzy}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=ZLA}{%
+         family={Zadeh},
+         familyi={Z\bibinitperiod},
+         given={Lotfi\bibnamedelima A},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific}%
+    }
+    \strng{namehash}{ZLA2}
+    \strng{fullhash}{ZLA2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Fuzzy Sets, Fuzzy Logic, and Fuzzy Systems: Selected
+  Papers by Lotfi a Zadeh}
+    \field{pages}{796\bibrangedash 804}
+    \field{title}{Soft computing and fuzzy logic}
+    \field{year}{1996}
+  \endentry
+
+  \entry{MS_CV}{online}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Micorsoft},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \verb{url}
+    \verb https://azure.microsoft.com/en-us/services/cognitive-services/compute
+    \verb r-vision/
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{01}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{Google_CV}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Google},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \verb{url}
+    \verb https://cloud.google.com/vision
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{01}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{Amazon_CV}{online}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Amazon},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \verb{url}
+    \verb https://aws.amazon.com/rekognition/
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{01}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{AIAMA}{book}{}
+    \name{author}{2}{}{%
+      {{hash=RSJ}{%
+         family={Russell},
+         familyi={R\bibinitperiod},
+         given={Stuart\bibnamedelima J},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Norvig},
+         familyi={N\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Malaysia; Pearson Education Limited}%
+    }
+    \strng{namehash}{RSJNP1}
+    \strng{fullhash}{RSJNP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{3}
+    \field{title}{Artificial intelligence: a modern approach}
+    \field{year}{2016}
+  \endentry
+
+  \entry{introductionML}{book}{}
+    \name{author}{1}{}{%
+      {{hash=NNJ}{%
+         family={Nilsson},
+         familyi={N\bibinitperiod},
+         given={Nils\bibnamedelima J},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {USA; Stanford University}%
+    }
+    \strng{namehash}{NNJ1}
+    \strng{fullhash}{NNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Introduction to machine learning: An early draft of a
+  proposed textbook}
+    \field{year}{1996}
+  \endentry
+
+  \entry{NN_introduction-Kriessel}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KD}{%
+         family={Kriesel},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD1}
+    \strng{fullhash}{KD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A brief introduction to neural networks. 2007}
+    \verb{url}
+    \verb http://www.dkriesel.com
+    \endverb
+    \field{year}{2007}
+  \endentry
+
+  \entry{NN-Nielsen-web}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=NMA}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Michael\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Determination press San Francisco, CA, USA:}%
+    }
+    \strng{namehash}{NMA1}
+    \strng{fullhash}{NMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Neural networks and deep learning}
+    \verb{url}
+    \verb http://neuralnetworksanddeeplearning.com/
+    \endverb
+    \field{volume}{25}
+    \field{year}{2015}
+  \endentry
+
+  \entry{wiki_logistic_function}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{Wikimedia Commons, uživatel: Qef}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Logistická křivka}
+    \verb{url}
+    \verb https://commons.wikimedia.org/w/index.php?title=File:Logistic-curve.s
+    \verb vg&oldid=365963933
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{05}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{wiki:H-funkce}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedie},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Online; navštíveno 25. 12. 2019]}
+    \field{title}{Heavisideova funkce --- Wikipedie: Otevřená encyklopedie}
+    \verb{url}
+    \verb https://cs.wikipedia.org/w/index.php?title=Heavisideova_funkce&oldid=
+    \verb 15733913
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{NN-zoo}{online}{}
+    \name{author}{1}{}{%
+      {{hash=VFV}{%
+         family={Veen},
+         familyi={V\bibinitperiod},
+         given={Fjodor\bibnamedelima Van},
+         giveni={F\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VFV1}
+    \strng{fullhash}{VFV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The Neural Network Zoo}
+    \verb{url}
+    \verb https://www.asimovinstitute.org/neural-network-zoo/
+    \endverb
+    \field{year}{2016}
+    \field{urlday}{25}
+    \field{urlmonth}{12}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{wiki:ucelova-funkce}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedie},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Online; navštíveno 27. 12. 2019]}
+    \field{title}{Účelová funkce --- Wikipedie: Otevřená encyklopedie}
+    \verb{url}
+    \verb https://cs.wikipedia.org/w/index.php?title=%C3%9A%C4%8Delov%C3%A1_fun
+    \verb kce&oldid=17923117
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{3B1B-ch2}{online}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={3Blue1Brown},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Deep learning, chapter 2: Gradient descent, how neural
+  networks learn}
+    \verb{url}
+    \verb https://youtu.be/IHZwWFHWa-w
+    \endverb
+    \field{year}{2017}
+    \field{urlday}{28}
+    \field{urlmonth}{12}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{3B1B-ch4}{online}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={3Blue1Brown},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Deep learning, chapter 4: Backpropagation calculus}
+    \verb{url}
+    \verb https://youtu.be/tIeHLnjs5U8
+    \endverb
+    \field{year}{2017}
+    \field{urlday}{28}
+    \field{urlmonth}{12}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{3B1B-ch3}{online}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={3Blue1Brown},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Deep learning, chapter 3: What is backpropagation really
+  doing?}
+    \verb{url}
+    \verb https://youtu.be/Ilg3gGewQ5U
+    \endverb
+    \field{year}{2017}
+    \field{urlday}{28}
+    \field{urlmonth}{12}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{wiki_fuzzy}{online}{}
+    \name{author}{1}{}{%
+      {{hash=WP}{%
+         family={Wikipedie},
+         familyi={W\bibinitperiod},
+         given={Přispěvatelé},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WP1}
+    \strng{fullhash}{WP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fuzzy logika}
+    \verb{url}
+    \verb https://cs.wikipedia.org/w/index.php?title=Fuzzy_logika&oldid=1740010
+    \verb 3
+    \endverb
+    \field{year}{2019}
+    \field{urlday}{05}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{fuzzy_logic}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ZLA}{%
+         family={{Zadeh}},
+         familyi={Z\bibinitperiod},
+         given={L.\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{formal logic;fuzzy set theory;fuzzy logic;meaning
+  representation;inference;rules;linguistic variable;fuzzy control;Fuzzy
+  logic;Automatic control;Laboratories;Application software;Process
+  control;Medical diagnosis;Finance;Earthquake engineering;Steam
+  engines;Vehicles}
+    \strng{namehash}{ZLA1}
+    \strng{fullhash}{ZLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/2.53
+    \endverb
+    \field{issn}{1558-0814}
+    \field{number}{4}
+    \field{pages}{83\bibrangedash 93}
+    \field{title}{Fuzzy logic}
+    \field{volume}{21}
+    \field{journaltitle}{Computer}
+    \field{month}{04}
+    \field{year}{1988}
+  \endentry
+
+  \entry{AlphaGoZero}{article}{}
+    \name{author}{17}{}{%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schrittwieser},
+         familyi={S\bibinitperiod},
+         given={Julian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Simonyan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Antonoglou},
+         familyi={A\bibinitperiod},
+         given={Ioannis},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Aja},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Guez},
+         familyi={G\bibinitperiod},
+         given={Arthur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hubert},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Lucas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lai},
+         familyi={L\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bolton},
+         familyi={B\bibinitperiod},
+         given={Adrian},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yutian},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lillicrap},
+         familyi={L\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Hui},
+         familyi={H\bibinitperiod},
+         given={Fan},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Sifre},
+         familyi={S\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DGvd}{%
+         family={Driessche},
+         familyi={D\bibinitperiod},
+         given={George van\bibnamedelima den},
+         giveni={G\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Graepel},
+         familyi={G\bibinitperiod},
+         given={Thore},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hassabis},
+         familyi={H\bibinitperiod},
+         given={Demis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{SD+1}
+    \strng{fullhash}{SDSJSKAIHAGAHTBLLMBACYLTHFSLDGvdGTHD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/nature24270
+    \endverb
+    \field{issn}{0028-0836}
+    \field{note}{Blogpost od DeepMind s linkem na veřejně přísupnou studii:
+  \url{https://deepmind.com/blog/article/alphago-zero-starting-scratch}}
+    \field{number}{7676}
+    \field{pages}{354\bibrangedash 359}
+    \field{title}{{Mastering the game of Go without human knowledge}}
+    \verb{url}
+    \verb https://doi.org/10.1038/nature24270
+    \endverb
+    \field{volume}{550}
+    \field{journaltitle}{Nature}
+    \field{month}{10}
+    \field{year}{2017}
+  \endentry
+
+  \entry{AlphaZero}{article}{}
+    \name{author}{13}{}{%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hubert},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schrittwieser},
+         familyi={S\bibinitperiod},
+         given={Julian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Antonoglou},
+         familyi={A\bibinitperiod},
+         given={Ioannis},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lai},
+         familyi={L\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Guez},
+         familyi={G\bibinitperiod},
+         given={Arthur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lanctot},
+         familyi={L\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Sifre},
+         familyi={S\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kumaran},
+         familyi={K\bibinitperiod},
+         given={Dharshan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Graepel},
+         familyi={G\bibinitperiod},
+         given={Thore},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lillicrap},
+         familyi={L\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Simonyan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hassabis},
+         familyi={H\bibinitperiod},
+         given={Demis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{SD+1}
+    \strng{fullhash}{SDHTSJAILMGALMSLKDGTLTSKHD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1126/science.aar6404
+    \endverb
+    \verb{eprint}
+    \verb https://science.sciencemag.org/content/362/6419/1140.full.pdf
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{6419}
+    \field{pages}{1140\bibrangedash 1144}
+    \field{title}{A general reinforcement learning algorithm that masters
+  chess, shogi, and Go through self-play}
+    \verb{url}
+    \verb https://science.sciencemag.org/content/362/6419/1140
+    \endverb
+    \field{volume}{362}
+    \field{journaltitle}{Science}
+    \field{year}{2018}
+  \endentry
+
+  \entry{AlphaStar}{article}{}
+    \name{author}{42}{}{%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Babuschkin},
+         familyi={B\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=CWM}{%
+         family={Czarnecki},
+         familyi={C\bibinitperiod},
+         given={Wojciech\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mathieu},
+         familyi={M\bibinitperiod},
+         given={Michaël},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dudzik},
+         familyi={D\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Junyoung},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CDH}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Powell},
+         familyi={P\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Ewalds},
+         familyi={E\bibinitperiod},
+         given={Timo},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Georgiev},
+         familyi={G\bibinitperiod},
+         given={Petko},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Junhyuk},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Horgan},
+         familyi={H\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kroiss},
+         familyi={K\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Danihelka},
+         familyi={D\bibinitperiod},
+         given={Ivo},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Aja},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Sifre},
+         familyi={S\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Trevor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AJP}{%
+         family={Agapiou},
+         familyi={A\bibinitperiod},
+         given={John\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jaderberg},
+         familyi={J\bibinitperiod},
+         given={Max},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VAS}{%
+         family={Vezhnevets},
+         familyi={V\bibinitperiod},
+         given={Alexander\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Leblond},
+         familyi={L\bibinitperiod},
+         given={Rémi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pohlen},
+         familyi={P\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DV}{%
+         family={Dalibard},
+         familyi={D\bibinitperiod},
+         given={Valentin},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Budden},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sulsky},
+         familyi={S\bibinitperiod},
+         given={Yury},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Molloy},
+         familyi={M\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PTL}{%
+         family={Paine},
+         familyi={P\bibinitperiod},
+         given={Tom\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gulcehre},
+         familyi={G\bibinitperiod},
+         given={Caglar},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ziyu},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pfaff},
+         familyi={P\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yuhuai},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Ring},
+         familyi={R\bibinitperiod},
+         given={Roman},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=YD}{%
+         family={Yogatama},
+         familyi={Y\bibinitperiod},
+         given={Dani},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wünsch},
+         familyi={W\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={McKinney},
+         familyi={M\bibinitperiod},
+         given={Katrina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schaul},
+         familyi={S\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lillicrap},
+         familyi={L\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hassabis},
+         familyi={H\bibinitperiod},
+         given={Demis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Apps},
+         familyi={A\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{VO+1}
+  \strng{fullhash}{VOBICWMMMDACJCDHPRETGPOJHDKMDIHASLCTAJPJMVASLRPTDVBDSYMJPTLGCWZPTWYRRYDWDMKSOSTLTKKHDACSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s41586-019-1724-z
+    \endverb
+    \field{issn}{0028-0836}
+    \field{note}{Blogpost od DeepMind s linkem na veřejně přísupnou studii
+  :
+  \url{https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning}}
+    \field{number}{7782}
+    \field{pages}{350\bibrangedash 354}
+    \field{title}{{Grandmaster level in StarCraft II using multi-agent
+  reinforcement learning}}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41586-019-1724-z
+    \endverb
+    \field{volume}{575}
+    \field{journaltitle}{Nature}
+    \field{month}{11}
+    \field{year}{2019}
+  \endentry
+
+  \entry{openai2019dota}{article}{}
+    \name{author}{26}{}{%
+      {{hash=O}{%
+         family={OpenAI},
+         familyi={O\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Berner},
+         familyi={B\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Brockman},
+         familyi={B\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Brooke},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Cheung},
+         familyi={C\bibinitperiod},
+         given={Vicki},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Dębiak},
+         familyi={D\bibinitperiod},
+         given={Przemysław},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dennison},
+         familyi={D\bibinitperiod},
+         given={Christy},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Farhi},
+         familyi={F\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FQ}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Quirin},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hashme},
+         familyi={H\bibinitperiod},
+         given={Shariq},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hesse},
+         familyi={H\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Józefowicz},
+         familyi={J\bibinitperiod},
+         given={Rafal},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Olsson},
+         familyi={O\bibinitperiod},
+         given={Catherine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pachocki},
+         familyi={P\bibinitperiod},
+         given={Jakub},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Petrov},
+         familyi={P\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dOPHP}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Oliveira\bibnamedelima Pinto},
+         familyi={O\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Henrique\bibnamedelima Pondé},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Raiman},
+         familyi={R\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Salimans},
+         familyi={S\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schlatter},
+         familyi={S\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sidor},
+         familyi={S\bibinitperiod},
+         given={Szymon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wolski},
+         familyi={W\bibinitperiod},
+         given={Filip},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O+1}
+    \strng{fullhash}{OBCBGCBCVDPDCFDFQHSHCJRGSOCPJPMOPHPdRJSTSJSJSSSITJWFZS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1912.06680
+    \endverb
+    \field{title}{Dota 2 with Large Scale Deep Reinforcement Learning}
+    \verb{url}
+    \verb https://arxiv.org/abs/1912.06680
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
+  \endentry
+
+  \entry{FAIR-poker}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BN}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sandholm},
+         familyi={S\bibinitperiod},
+         given={Tuomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BNST1}
+    \strng{fullhash}{BNST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Facebook, Carnegie Mellon build first AI that beats pros in
+  6-player poker}
+    \verb{url}
+    \verb https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-play
+    \verb er-poker/
+    \endverb
+    \field{year}{2019}
+    \field{urlday}{30}
+    \field{urlmonth}{12}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{tesseract_wiki}{online}{}
+    \name{author}{1}{}{%
+      {{hash=m}{%
+         family={megapro17},
+         familyi={m\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{m1}
+    \strng{fullhash}{m1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Tesseract OCR Wiki: ReadMe}
+    \verb{url}
+    \verb https://github.com/tesseract-ocr/tesseract/blob/master/README.md
+    \endverb
+    \field{year}{2018}
+    \field{urlday}{15}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{pytesseract}{online}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Hoffstaetter},
+         familyi={H\bibinitperiod},
+         given={Samuel},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Python Tesseract}
+    \verb{url}
+    \verb https://github.com/madmaze/pytesseract
+    \endverb
+    \field{year}{2020}
+    \field{urlday}{30}
+    \field{urlmonth}{01}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{opencv_library}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BG}{%
+         family={Bradski},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{bibtex-import}
+    \strng{namehash}{BG1}
+    \strng{fullhash}{BG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{The OpenCV Library}}
+    \field{journaltitle}{Dr. Dobb's Journal of Software Tools}
+    \field{year}{2000}
+  \endentry
+
+  \entry{opencv_about}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{About OpenCV}
+    \verb{url}
+    \verb https://opencv.org/about/
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{01}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{pero_dataset}{online}{}
+    \name{author}{1}{}{%
+      {{hash=PP}{%
+         family={PERO},
+         familyi={P\bibinitperiod},
+         given={Project},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PP1}
+    \strng{fullhash}{PP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Obsahuje možnost stáhnutí datasetu}
+    \field{title}{Brno Mobile OCR Dataset}
+    \verb{url}
+    \verb https://pero.fit.vutbr.cz/brno_mobile_ocr_dataset
+    \endverb
+    \field{year}{2019}
+    \field{urlday}{05}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{BMOD_article}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KM}{%
+         family={Kišš},
+         familyi={K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hradiš},
+         familyi={H\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KO}{%
+         family={Kodym},
+         familyi={K\bibinitperiod},
+         given={Oldřich},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KM+1}
+    \strng{fullhash}{KMHMKO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1907.01307
+    \endverb
+    \field{title}{Brno Mobile {OCR} Dataset}
+    \verb{url}
+    \verb http://arxiv.org/abs/1907.01307
+    \endverb
+    \field{volume}{abs/1907.01307}
+    \field{journaltitle}{CoRR}
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Tess_wiki_improve}{online}{}
+    \name{author}{1}{}{%
+      {{hash=to}{%
+         prefix={tesseract},
+         prefixi={t\bibinitperiod},
+         family={ocr},
+         familyi={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ot1}
+    \strng{fullhash}{ot1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Improving the quality of the output}
+    \verb{url}
+    \verb https://tesseract-ocr.github.io/tessdoc/ImproveQuality
+    \endverb
+    \field{year}{2020}
+    \field{urlday}{15}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{CV_resize}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Geometric Image Transformations}
+    \verb{url}
+    \verb https://docs.opencv.org/master/da/d54/group__imgproc__transform.html#
+    \verb ga47a974309e9102f5f08231edc7e7529d
+    \endverb
+    \field{urlday}{16}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{CV_blur}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Smoothing Images}
+    \verb{url}
+    \verb https://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html
+    \endverb
+    \field{urlday}{16}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{CV_bilateral}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Image Filtering}
+    \verb{url}
+    \verb https://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#ga9
+    \verb d7064d478c95d60003cf839430737ed
+    \endverb
+    \field{urlday}{16}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{CV_threshold}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Image Thresholding}
+    \verb{url}
+    \verb https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html
+    \endverb
+    \field{urlday}{16}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{wiki_wer}{online}{}
+    \name{author}{1}{}{%
+      {{hash=cW}{%
+         family={contributors},
+         familyi={c\bibinitperiod},
+         given={Wikipedia},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cW1}
+    \strng{fullhash}{cW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Word error rate --- {Wikipedia}{,} The Free Encyclopedia}
+    \verb{url}
+    \verb https://en.wikipedia.org/w/index.php?title=Word_error_rate&oldid=9395
+    \verb 75741
+    \endverb
+    \field{year}{2020}
+    \field{urlday}{16}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{tess_weird}{online}{}
+    \name{author}{1}{}{%
+      {{hash=DW}{%
+         family={Dotkom},
+         familyi={D\bibinitperiod},
+         given={Willus},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DW1}
+    \strng{fullhash}{DW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Optimal image resolution (dpi/ppi) for Tesseract 4.0.0 and
+  eng.traineddata?}
+    \verb{url}
+    \verb https://groups.google.com/forum/#!msg/tesseract-ocr/Wdh_JJwnw94/24JHD
+    \verb YQbBQAJ
+    \endverb
+    \field{year}{2018}
+    \field{urlday}{15}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{CV_gray}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Color Space Conversions}
+    \verb{url}
+    \verb https://docs.opencv.org/master/d8/d01/group__imgproc__color__conversi
+    \verb ons.html#gga4e0972be5de079fed4e3a10e24ef5ef0a353a4b8db9040165db4dacb5
+    \verb bcefb6ea
+    \endverb
+  \endentry
+
+  \entry{CV_denoise}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Image Denoising}
+    \verb{url}
+    \verb https://docs.opencv.org/master/d5/d69/tutorial_py_non_local_means.htm
+    \verb l
+    \endverb
+    \field{urlday}{16}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+\enddatalist
+\endinput

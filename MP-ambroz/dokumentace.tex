@@ -1,0 +1,48 @@
+\documentclass[12pt]{report}
+\usepackage{SP}
+\usepackage{outlines}
+
+
+
+\begin{document}
+\chapter{Dokumentace}
+\subsection{Kódy příkazů}
+\begin{outline}
+\1 \emph{0} : obrazek = cv2.resize(obrazek, None, fx=\emph{par0}, fy=\emph{par0}, \\interpolation=\emph{interpolace})\\
+	$fx$ a $fy$ násobí velikost původního obrázku a získávají tak velikost výsledného obrázku. Přísluší jednotlivým osám. Jedná se o~desetinná čísla. \parencite{CV_resize}
+	\2 \emph{01}: $interpolace$ = cv2.INTER\_AREA\\ Vhodné pro zmenšování obrázku.
+	
+	\2 \emph{02}: \emph{interpolace} = cv2.INTER\_CUBIC\\ Nejlepší pro zvětšení obrázku, ale pomalejší.
+	
+	\2 \emph{03}: \emph{interpolace} = cv2.INTER\_LINEAR\\ Pro zvětšení obrázku. Rychlejší, ale ne nejlepší.  
+	
+\1 \emph{11}: obrazek = cv2.cvtColor(obrazek, cv2.COLOR\_BGR2GRAY)\\ Převede obrázek do grayscale.
+\1 \emph{21}: obrazek = cv2.fastNlMeansDenoising(obrazek, $par1$,$par2$, $par3$)\\
+Vyžaduje grayscale obrázek. Desetinné číslo $par1$ určuje sílu filtru. Celá lichá čísla $par2$ a $par3$ jsou parametry určující velikost okna. Výpočetní náročnost se zvětšuje pro vyšší hodnoty.
+\1 \emph{3}: Provede rozmazání (\gls{en} blurring) obrázku. \parencite{CV_blur}
+	\2 \emph{31}: obrazek = cv2.blur(obrazek, ($par4$, $par4$))\\ Použije aritmetický průměr pole, kde výška a šířka je rovna $par4$, což je celé číslo.
+	\2 \emph{32}: obrazek = cv2.bilateralFilter(obrazek, $par5$,  $par6$, $par7$)\\
+	Je efektivní pro odstranění šumu a zároveň zachovává ostré hrany. $par5$ je celé číslo určující průměr okolí použitého ve filtraci.	 $par6$ a $par7$ jsou desetinné hodnoty odpovídající SigmaSpace a SigmaColor. Čím jsou větší, tím větší je síla efektu (\gls{viz} dokumentace \parencite{CV_bilateral}
+	\2 \emph{33}: obrazek = cv2.GaussianBlur(obrazek, ($par8$,$par8$), $par9$)\\  $par8$ určuje velikost oblasti, se kterou se počítá, musí být kladné liché číslo. $par9$ určuje standartní deviaci, pokud je nulový, tak se vypočítá z~velikosti oblasti
+	\2 \emph{34}: obrazek = cv2.medianBlur(obrazek, $par10$) \\ Střed pole o~výšce a šířce $par10$ je určen mediánem hodnot v~tomto poli. $par10$ by měl být kladná liché číslo.
+\1 \emph{4} Vstupem by měl být grayscale obrázek.  Výsledek je binarizovaný obrázek \parencite{CV_threshold}
+	\2 \emph{41}: obrazek = cv2.adaptiveThreshold(obrazek, 255,\\cv2.ADAPTIVE\_THRESH\_MEAN\_C, cv2.THRESH\_BINARY, $par11$, $par12$)\\ Celé číslo $par11$ určuje velikost bloku. Spočítá se průměr a odečte se od něj konstanta $par12$.
+	\2 \emph{42}:  obrazek = cv2.adaptiveThreshold(obrazek, 255,\\cv2.ADAPTIVE\_THRESH\_GAUSSIAN\_C, cv2.THRESH\_BINARY, $par13$, $par14$)\\ Celé číslo $par13$ určuje velikost bloku. Spočítá se průměr a odečte se od něj konstanta $par14$.
+	\2 \emph{43}: ret, obrazek = cv2.threshold(obrazek, 0, 255, cv2.THRESH\_BINARY + cv2.THRESH\_OTSU)\\
+	Jedná se o~binarizaci s~globálním prahem, který je určen pomocí Otsuovi metody. Nevyžaduje žádný parametr. Funkce vrací 2 hodnoty a až druhá je upravený obrázek.
+\end{outline}
+\subsection{Formát souborů}
+\subsubsection{Databáze obrázků}
+Každému obrázku připadá jeden řádek, který má mezerou oddělený název obrázku a text, který se na něm nachází.
+\subsubsection{Příkazy pro OpenCV}
+Název zdrojové složky, databáze obrázků, soubor s~parametry a poté jednotlivé číselné kódy pro příkazy, jsou na jedné řádce odděleny mezerami. Chceme-li provést další operaci jednoduše ji stejným způsobem zapíšeme na následující řádku.
+\subsubsection{Soubor s~parametry}
+Jednotlivé parametry jsou odděleny mezerou a všechny se nachází na jednom řádku.
+\subsubsection{Příkazy pro Tesseract}
+Na každém řádku je název složky, ze které má Tesseract brát obrázky, a mezerou oddělený název souboru s~databází obrázků.
+\subsubsection{Výpočet úspěšnosti}
+Stejný formát předpokládá i algoritmus pro vyhodnocení úspěšnosti. V~databázi se ale musí nacházet i text, který je na obrázku
+
+
+ \printbibliography
+\end{document}
