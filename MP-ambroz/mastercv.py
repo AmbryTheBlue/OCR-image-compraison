@@ -3,6 +3,7 @@
 #Soucast maturitni práce: Umela inteligence a OCR
 #Datum: 19.2.20
 #verze: 1.0
+#github: https://github.com/AmbryTheBlue/OCR-image-compraison
 #popis: Program pouzije prikazy OpenCV podle souboru prikazy_path, popis formatu tohoto souboru je v dokumentaci
 
 import os

@@ -3,6 +3,7 @@
 #Soucast maturitni práce: Umela inteligence a OCR
 #Datum: 19.2.20
 #verze: 1.0
+#github: https://github.com/AmbryTheBlue/OCR-image-compraison
 #popis: Vola Tesseract k rozeznani textu z obrazku ve slozce imgpath z databaze obrazku dbpath. Vysledky ulozi do textoveho souboru. Vyzaduje nainstalovany Tesseract na pocitaci.
 
 try:

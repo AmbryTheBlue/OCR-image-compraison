@@ -57,7 +57,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Backpropagation}{22}{Item.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Fuzzy logika}{22}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Fuzzy logika}{23}{section.3.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Lingvistická proměnná}{23}{section.3.4}%
 \defcounter {refsection}{0}\relax 

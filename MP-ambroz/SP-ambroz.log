@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.12.26)  16 FEB 2020 21:05
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.12.26)  16 FEB 2020 22:57
 entering extended mode
 **./SP-ambroz.tex
 (SP-ambroz.tex
@@ -1244,32 +1244,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--176
 File: images/NN/Logistic-curve.png Graphic file (type bmp)
 <images/NN/Logistic-curve.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 250.
+(hyperref)                removing `\gls' on input line 251.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 [20]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 257.
+(hyperref)                removing `\gls' on input line 258.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
@@ -1279,14 +1278,9 @@ File: images/NN/fuzzy_linguistic_function.png Graphic file (type bmp)
  [23]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 305.
+(hyperref)                removing `\gls' on input line 306.
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-
- []
-
-[25] [26
+[24] [25] [26
 
 ]
 Kapitola 4.
@@ -1296,31 +1290,31 @@ Kapitola 4.
 File: images/praxe/prah-nekvalitni.jpg Graphic file (type bmp)
 <images/praxe/prah-nekvalitni.jpg>
  [28] [29] [30] [31]
-Overfull \hbox (23.22781pt too wide) in paragraph at lines 415--416
+Overfull \hbox (23.22781pt too wide) in paragraph at lines 416--417
 \TU/lmr/m/n/12 cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, $\OML/cmm/m/i
 t/12 par\OT1/cmr/m/n/12 13$\TU/lmr/m/n/12 , $\OML/cmm/m/it/12 par\OT1/cmr/m/n/1
 2 14$\TU/lmr/m/n/12 ) 
  []
 
 [32]
-Overfull \hbox (3.51735pt too wide) in paragraph at lines 424--426
+Overfull \hbox (3.51735pt too wide) in paragraph at lines 425--427
 \TU/lmr/m/n/12 Vypočítává zjednodušenou obdobu \TU/lmr/m/it/12 word error rate 
 \TU/lmr/m/n/12 (česky \TU/lmr/m/it/12 míra chybovosti ve slovech\TU/lmr/m/n/12 
 ). V tomto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--426
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 429--431
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
  []
 
@@ -1329,7 +1323,7 @@ Kapitola 5.
 [36
 
 ] [37]
-Overfull \hbox (11.1652pt too wide) in paragraph at lines 464--471
+Overfull \hbox (11.1652pt too wide) in paragraph at lines 465--472
 \TU/lmr/m/n/12 Pro zájemce je celá práce a zdrojové kódy k dispozici na: []$[][
 ][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][][] []
  []
@@ -1337,7 +1331,7 @@ Overfull \hbox (11.1652pt too wide) in paragraph at lines 464--471
 [38
 
 ]
-Overfull \hbox (119.61914pt too wide) in paragraph at lines 474--474
+Overfull \hbox (119.61914pt too wide) in paragraph at lines 475--475
 []\TU/lmr/m/n/12 Michael A Nielsen. \TU/lmr/m/it/12 Neural networks and deep le
 arning\TU/lmr/m/n/12 . 2015. \TU/lmr/m/sc/12 url\TU/lmr/m/n/12 : []$[][][][] []
  [] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
@@ -1346,27 +1340,27 @@ arning\TU/lmr/m/n/12 . 2015. \TU/lmr/m/sc/12 url\TU/lmr/m/n/12 : []$[][][][] []
 [39
 
 ]
-Overfull \hbox (9.0712pt too wide) in paragraph at lines 474--474
+Overfull \hbox (9.0712pt too wide) in paragraph at lines 475--475
 []\TU/lmr/m/n/12 Fjodor Van Veen. \TU/lmr/m/it/12 The Neural Network Zoo\TU/lmr
 /m/n/12 . 2016. \TU/lmr/m/sc/12 url\TU/lmr/m/n/12 : []$[][][][][] [] [] [] [][]
 [] [] [][][][][][][][][][][][][][][] []
  []
 
 [40]
-Overfull \hbox (14.34615pt too wide) in paragraph at lines 474--474
+Overfull \hbox (14.34615pt too wide) in paragraph at lines 475--475
 []\TU/lmr/m/n/12 megapro17. \TU/lmr/m/it/12 Tesseract OCR Wiki: ReadMe\TU/lmr/m
 /n/12 . 2018. \TU/lmr/m/sc/12 url\TU/lmr/m/n/12 : []$[][][][][] [] [] [] [][][]
 [][][] [] [][][] [] [][][][][][][][][] [][]
  []
 
 [41]
-Overfull \hbox (23.63335pt too wide) in paragraph at lines 474--474
+Overfull \hbox (23.63335pt too wide) in paragraph at lines 475--475
 []\TU/lmr/m/n/12 Willus Dotkom. \TU/lmr/m/it/12 Optimal image resolution (dpi/p
 pi) for Tesseract 4.0.0 and eng.traineddata?
  []
 
 
-Overfull \hbox (194.3808pt too wide) in paragraph at lines 474--474
+Overfull \hbox (194.3808pt too wide) in paragraph at lines 475--475
 [][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][] [] [][][][] [] [][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/12 . 
@@ -1397,7 +1391,7 @@ Overfull \hbox (194.3808pt too wide) in paragraph at lines 474--474
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 488.
+(hyperref)                be the same. Added a new anchor on input line 489.
 
 [48
 
@@ -1407,23 +1401,18 @@ P\v {r}\'{\i }loha A.
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 497.
+nput line 498.
  (mastercv.py
 [49
 
 ] [50] [51] [52] [53] [54]) (tesseract.py [55] [56]) (accuracy.py [57]
 [58]) [59]
-Underfull \vbox (badness 10000) detected at line 528
+Underfull \vbox (badness 10000) detected at line 529
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
 []|\TU/lmr/m/n/12 lines-02(4)-11-32(9,75,75)-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--536
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
@@ -1432,7 +1421,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 537--537
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
@@ -1493,12 +1482,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 551--551
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 552--552
-[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 553--553
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
  []
 
 
@@ -1508,7 +1497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 554--554
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 555--555
-[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
@@ -1523,22 +1512,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--557
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 558--558
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--560
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 562--562
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
  []
 
 
@@ -1566,26 +1555,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--567
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+ []
+
 [60
 
 ] [61]
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
 []|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 571--571
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 572--572
-[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
@@ -1595,7 +1584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 573--573
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 574--574
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
  []
 
 
@@ -1609,7 +1598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 576--576
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 577--577
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
@@ -1624,7 +1613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--580
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
@@ -1635,12 +1624,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 583--583
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 584--584
-[]|\TU/lmr/m/n/12 lines-02(4)-11-33(7,7,7)-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 585--585
-[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-33(7,7,7)-
  []
 
 
@@ -1650,62 +1639,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 586--586
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 587--587
+[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--588
 []|\TU/lmr/m/n/12 lines-02(4)-11-32(9,75,75)-
  []
 
 [62] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 588--588
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 589--589
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 590--590
-[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 591--591
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 592--592
 []|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 593--593
+[]|\TU/lmr/m/n/12 lines-02(4)-21(3,25,11)-11-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
 []|\TU/lmr/m/n/12 lines-02(4)-11-34(7)-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 598--598
 []|\TU/lmr/m/n/12 lines-02(4)-11-31(5,5)-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--600
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 601--601
-[]|\TU/lmr/m/n/12 lines-02(4)-11-33(7,7,7)-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 602--602
-[]|\TU/lmr/m/n/12 lines-02(4)-11-32(9,75,75)-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-33(7,7,7)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 603--603
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+[]|\TU/lmr/m/n/12 lines-02(4)-11-32(9,75,75)-
  []
 
 
@@ -1714,32 +1703,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 604--604
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
 []|\TU/lmr/m/n/12 lines-02(4)-11-34(7)-
  []
 
 [64] [65]
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 []|\TU/lmr/m/n/12 lines-02(4)-11-31(5,5)-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
-[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 615--615
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
@@ -1774,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--621
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--624
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
@@ -1788,12 +1777,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 626--626
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
-[66]
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
-
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
@@ -1818,24 +1807,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--634
+[]|\TU/lmr/m/n/12 lines-02(4)-11-21(3,25,11)-
+ []
+
 [67] [68] [69] [70]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 639.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 639.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
  (SP-ambroz.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 639.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 639.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 640.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
 Package rerunfilecheck Info: File `SP-ambroz.out' has not changed.
 (rerunfilecheck)             Checksum: D762330F94A82626575B98EDFC0C6F9A;3787.
 Package logreq Info: Writing requests to 'SP-ambroz.run.xml'.
 \openout1 = `SP-ambroz.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 639.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 640.
  ) 
 Here is how much of TeX's memory you used:
- 37785 strings out of 427272
- 655173 string characters out of 3146595
- 1378497 words of memory out of 3000000
- 41823 multiletter control sequences out of 15000+200000
+ 37788 strings out of 427272
+ 655215 string characters out of 3146595
+ 1377567 words of memory out of 3000000
+ 41825 multiletter control sequences out of 15000+200000
  539178 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,13n,100p,2024b,6492s stack positions out of 5000i,500n,10000p,200000b,50000s

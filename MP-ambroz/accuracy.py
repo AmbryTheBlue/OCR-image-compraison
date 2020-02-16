@@ -3,6 +3,7 @@
 #Soucast maturitni práce: Umela inteligence a OCR
 #Datum: 19.2.20
 #verze: 1.0
+#github: https://github.com/AmbryTheBlue/OCR-image-compraison
 #popis: Spocita uspesnost rozpoznani slov Tesseractem pro ruzné kombinace prikazu. A ulozi do textoveho souboru.
 
 path = "E:/MP/datasets/pero"
