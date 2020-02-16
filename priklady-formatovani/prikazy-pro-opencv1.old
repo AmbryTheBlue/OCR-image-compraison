@@ -1,0 +1,3 @@
+lines supersmall.easy parametry1.txt 01 11 21 42
+lines supersmall.easy parametry1.txt 01 11 33 41
+lines supersmall.easy parametry1.txt 01 11 34 43

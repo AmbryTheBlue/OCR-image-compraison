@@ -1,0 +1,7 @@
+lines-41(15,2)- small.easy
+lines-41(9,4)- small.easy
+lines-41(11,10)- small.easy
+lines-42(15,2)- small.easy
+lines-42(9,4)- small.easy
+lines-42(11,10)- small.easy
+lines-43- small.easy

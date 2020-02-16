@@ -1,0 +1,28 @@
+	resize
+par0 = fx a zaroven fy ; scale factor along the horizontal and vertical axis; size multiplier in resize; double
+
+denoise
+par1  = h (Parameter regulating filter strength.) Big h value perfectly removes noise but also removes image details, smaller h value preserves details but also preserves some noise
+par2 = search_window Size in pixels of the window that is used to compute weighted average for given pixel. Should be odd. Affect performance linearly: greater search_window - greater denoising time. Recommended value 21 pixels
+par3 = block_size	Size in pixels of the template patch that is used to compute weights. Should be odd. Recommended value 7 pixels
+
+blur
+par4 = rozmery kerenelu v .blur
+blur-bilateral
+par5 = d -diametr
+par6 = sigmaColor
+par7 = sigmaSpace
+blur-gauss
+par8 = rozmer-kerenlu, must be odd
+par9 = standartni deviace, je-li 0,automaticky se dopocitava
+blur-median
+par10 = kerenel size, odd > 1
+
+threshold-adaptive
+par11 = block-size int
+par12 = double C; konstanta, co se odečítá
+
+threshold-adaptive-gauss:
+par13 = block-size int
+par14 = double C; konstanta, co se odečítá
+
