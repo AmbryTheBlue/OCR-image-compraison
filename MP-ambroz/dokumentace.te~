@@ -5,6 +5,7 @@
 
 
 \begin{document}
+\chapter{Dokumentace}
 \subsection{Kódy příkazů}
 \begin{outline}
 \1 \emph{0} : obrazek = cv2.resize(obrazek, None, fx=\emph{par0}, fy=\emph{par0}, \\interpolation=\emph{interpolace})\\

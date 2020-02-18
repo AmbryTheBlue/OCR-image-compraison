@@ -1,5 +1,5 @@
 @book{AIAMA,
-  title={Artificial intelligence: a~modern approach},
+  title={Artificial intelligence: a modern approach},
   author={Russell, Stuart J and Norvig, Peter},
   year={2016},
   publisher={Malaysia; Pearson Education Limited},
@@ -77,7 +77,7 @@ urldate = {2019-12-25},
 
 @article {AlphaZero,
 	author = {Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and Lillicrap, Timothy and Simonyan, Karen and Hassabis, Demis},
-	title = {A~general reinforcement learning algorithm that masters chess, shogi, and Go through self-play},
+	title = {A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play},
 	volume = {362},
 	number = {6419},
 	pages = {1140--1144},
@@ -102,7 +102,7 @@ urldate = {2019-12-25},
   pages = {354--359},
   number = {7676},
   url = {https://doi.org/10.1038/nature24270},
-  note={Blogpost od DeepMind s~linkem na veřejně přísupnou studii: \url{https://deepmind.com/blog/article/alphago-zero-starting-scratch}}
+  note={Blogpost od DeepMind s linkem na veřejně přísupnou studii: \url{https://deepmind.com/blog/article/alphago-zero-starting-scratch}}
 }
 @article {FAIR-poker,
 	author = {Brown, Noam and Sandholm, Tuomas},
@@ -124,12 +124,12 @@ month = {11},
 pages = {350--354},
 number = {7782},
 url = {https://doi.org/10.1038/s41586-019-1724-z},
-note={Blogpost od DeepMind s~linkem na veřejně přísupnou studii : \url{https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning}}
+note={Blogpost od DeepMind s linkem na veřejně přísupnou studii : \url{https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning}}
 }
 
 
 @book{introductionML,
-  title={Introduction to machine learning: An early draft of a~proposed textbook},
+  title={Introduction to machine learning: An early draft of a proposed textbook},
   author={Nilsson, Nils J},
   year={1996},
   publisher={USA; Stanford University}

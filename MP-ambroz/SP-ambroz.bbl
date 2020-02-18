@@ -198,7 +198,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{edition}{3}
-    \field{title}{Artificial intelligence: a modern approach}
+    \field{title}{Artificial intelligence: a~modern approach}
     \field{year}{2016}
   \endentry
 
@@ -218,8 +218,8 @@
     \strng{fullhash}{NNJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Introduction to machine learning: An early draft of a
-  proposed textbook}
+    \field{title}{Introduction to machine learning: An early draft of
+  a~proposed textbook}
     \field{year}{1996}
   \endentry
 
@@ -589,7 +589,7 @@
     \verb 10.1038/nature24270
     \endverb
     \field{issn}{0028-0836}
-    \field{note}{Blogpost od DeepMind s linkem na veřejně přísupnou studii:
+    \field{note}{Blogpost od DeepMind s~linkem na veřejně přísupnou studii:
   \url{https://deepmind.com/blog/article/alphago-zero-starting-scratch}}
     \field{number}{7676}
     \field{pages}{354\bibrangedash 359}
@@ -700,7 +700,7 @@
     \field{issn}{0036-8075}
     \field{number}{6419}
     \field{pages}{1140\bibrangedash 1144}
-    \field{title}{A general reinforcement learning algorithm that masters
+    \field{title}{A~general reinforcement learning algorithm that masters
   chess, shogi, and Go through self-play}
     \verb{url}
     \verb https://science.sciencemag.org/content/362/6419/1140
@@ -976,7 +976,7 @@
     \verb 10.1038/s41586-019-1724-z
     \endverb
     \field{issn}{0028-0836}
-    \field{note}{Blogpost od DeepMind s linkem na veřejně přísupnou studii
+    \field{note}{Blogpost od DeepMind s~linkem na veřejně přísupnou studii
   :
   \url{https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning}}
     \field{number}{7782}

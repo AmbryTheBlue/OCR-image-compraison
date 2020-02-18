@@ -5,7 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Standardizované fonty americký OCR-A (nahoře) a evropský OCR-B (dole), zdroj: \parencite [\gls {str} 9]{eikvil-ocr}\relax }}{11}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Standardizované fonty americký OCR-A (nahoře) a~evropský OCR-B (dole), zdroj: \parencite [\gls {str} 9]{eikvil-ocr}\relax }}{11}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -15,7 +15,23 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ilustrační obrázek binarizace: lines-42(15,2)-\relax }}{29}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Příklad obrázku ve stupních šedi. Ze složky \emph {lines-02(4)-11-}\relax }}{28}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ilustrační obrázek binarizace: lines-42(15,2)-\relax }}{29}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Příklad obrázku adaptivního (průměrného) thresholdingu. Ze složky \emph {lines-02(4)-41(9,4)-}\relax }}{29}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Příklad obrázku adaptivního (Gaussova) thresholdingu. Ze složky \emph {lines-02(4)-42(9,4)-}\relax }}{29}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Příklad obrázku adaptivního (Gaussova) thresholdingu s jinými parametry. Ze složky \emph {lines-02(4)-42(15,2)-}\relax }}{29}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Příklad Otsuova thresholdingu. Ze složky \emph {lines-02(4)-43)-}\relax }}{29}{figure.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Příklad rozmazaného obrázku ve stupních šedi. Ze složky \emph {lines-02(4)-11-31(5,5)}\relax }}{30}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Rozmazání \ref {fig:blur} a thresholdingu (porovnjete s \ref {fig:gauss94}). Ze složky \emph {lines-02(4)-31(5,5)-42(9,4)-}\relax }}{30}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Příklad obrázku, který byl zvětšen. Ze složky \emph {lines-02(4)-}\relax }}{30}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
