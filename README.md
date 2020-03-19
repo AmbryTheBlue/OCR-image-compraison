@@ -9,7 +9,7 @@ Obsahuje popis postupů, které jsou použity v praktické části. Vysvětluje 
 Pro úplnost je nahrána celá i teoretickou částí, která se programů přímo nedotýká. Zároveň obsahuje i zdrojové soubory v TeXu (použit XeLaTex a Bib(la)tex). Styl používá (s jen drobnými úpravami) [Jonášova stylu pro Seminární práce][1], který obsahuje i drobný tutoriál na využití TeX a tohoto stylu.
 
 ## test
-[test][]
+[test][4]
 
 [1]:https://github.com/JoHavel/Maturitni-Seminarni-Prace
 [2]:https://opencv.org/
