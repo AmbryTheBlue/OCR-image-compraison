@@ -6,6 +6,7 @@ Jedná se o součást [maturitní práce][3] vypracované ve školním roce 2019
 2. Rozpoznání textu z obrázků ([OCR][5]) pomocí [Tesseractu][4] přes pytesseract, soubor [tesseract.py](../master/tesseract.py)
 3. Porovnání dvou textů (jeden s řešením a druhý s textem rozeznaným [Tesseractem][4]) k získání zaokrouhlené obdoby [Word error rate][6], která určuje úspěšnost rozpoznání slov. Soubor [accuracy.py](../master/accuracy.py)
 4. Seřazení úspěšností vypočítané [accruacy.py](../blob/master/accuracy.py), soubor [sortovac.py](../master/sortovac.py)
+
 Popis formátu souborů s paramtery určujícími, co tyto programy provedou jsou v [dokumentace.pdf](../master/dokumentace.pdf)
 ## Maturitní práce
 Obsahuje popis postupů, které jsou použity v praktické části. Vysvětluje proč jsou použity a zhodnocuje jejich nedostatky.
