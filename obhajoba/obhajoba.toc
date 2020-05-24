@@ -1,0 +1,14 @@
+\babel@toc {czech}{}
+\beamer@sectionintoc {1}{Využité nástroje}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Tesseract}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{OpenCV}{5}{0}{1}
+\beamer@subsubsectionintoc {1}{2}{1}{Úpravy obrázku}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{B-MOD}{8}{0}{1}
+\beamer@sectionintoc {2}{Postup}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{Praxe: OpenCV}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{Praxe: Tesseract}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{Praxe: Měření úspěšnosti}{16}{0}{2}
+\beamer@sectionintoc {3}{Závěr}{18}{0}{3}
+\beamer@subsectionintoc {3}{1}{Výsledky}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Zhodnocení}{21}{0}{3}
+\beamer@subsectionintoc {3}{3}{Konec}{22}{0}{3}
