@@ -1,5 +1,5 @@
 \documentclass{beamer}
-\title{Příprava obrázků k~OCR}
+\title{Příprava obrázků k OCR}
 \subtitle{Obhajoba maturitní práce}
 \author{Jakub Ambroz}
 \usepackage[czech]{babel}
@@ -19,7 +19,7 @@
 	\end{frame}
 \section{Využité nástroje}	
 \begin{frame}
-\frametitle{Teoretická část}
+\frametitle{Základní pojmy}
 \begin{itemize}
 \item \emph{AI} = \emph{Artificial Intelligence} = umělá inteligence
 \item \emph{OCR} = \emph{Optical Character Recognition} = optické rozpoznávání znaků
@@ -30,8 +30,8 @@
 \frametitle{Tesseract}
 \begin{itemize}
 \item OCR program příkazové řádky
-\item napsaný v~C++ a nyní má otevřený zdrojový kód na Githubu
-\item K~dispozici jsou už naučené (natrénované) verze
+\item napsaný v C++ a nyní má otevřený zdrojový kód na Githubu
+\item K dispozici jsou už naučené (natrénované) verze
 \item Pro zlepšení výsledků doporučuje dokumentace úpravu obrázků
 \end{itemize}
 \end{frame}
@@ -46,7 +46,7 @@ Jak (a jestli) je možné upravit obrázek tak, aby byla zvýšena kvalita rozpo
 \frametitle{OpenCV}
 \begin{itemize}
 \item \emph{Open Source Computer Vision Library} = Knihovna s~otevřeným zdrojovým kódem pro počítačové vidění
-\item Psaná v~C++, ale má rozhraní i v~Pythonu
+\item Psaná v C++, ale má rozhraní i v Pythonu
 \end{itemize}
 \end{frame}	
 \subsubsection{Úpravy obrázku}
@@ -66,7 +66,7 @@ Jak (a jestli) je možné upravit obrázek tak, aby byla zvýšena kvalita rozpo
      	\begin{mujbox}
      	\includegraphics[width=1\textwidth]{obrazky/threshold_gauss(15,2).jpg}
      	\end{mujbox}
-     	Obrázek-2: Gaussovský adaptivní práh s~jinými parametry\\
+     	Obrázek-2: Gaussovský adaptivní práh s jinými parametry\\
      	\begin{mujbox}
 		\includegraphics[width=1\textwidth]{obrazky/threshold_mean(9,4).jpg}
 		\end{mujbox}
@@ -93,15 +93,15 @@ Jak (a jestli) je možné upravit obrázek tak, aby byla zvýšena kvalita rozpo
 		\begin{columns}
 		\begin{column}{0.5\textwidth}
 \begin{itemize}
-\item \emph{Brno Mobile OCR Dataset} - z~VUTBR
-\item Rozmanitý: foceno různými zařízením, za různých světelných podmínek, z~různých vzdáleností a z~různých úhlů
+\item \emph{Brno Mobile OCR Dataset} - z VUTBR
+\item Rozmanitý: foceno různými zařízením, za různých světelných podmínek, z různých vzdáleností a z různých úhlů
 \item Rozstřihané fotky po jednotlivých řádcích
 \end{itemize}
 		\end{column}
 		\begin{column}{0.5\textwidth}
     	\begin{center}
      	\includegraphics[width=0.8\textwidth]{img/bmod-sample.jpg}\\
-     	Obrázek-5: Ukázka z~datasetu
+     	Obrázek-5: Ukázka z datasetu
      	\end{center}
 		\end{column}
 		\end{columns}
@@ -131,9 +131,9 @@ Jak (a jestli) je možné upravit obrázek tak, aby byla zvýšena kvalita rozpo
 \frametitle{OpenCV}
 \begin{itemize}
 \item Vytvořil jsem si kódy jednotlivým funkcím
-\item Program, který je vykoná v~takovém pořadí v~jakém jsou předloženy
-\item Potřebné informace získá program z~jedné řádky v~textovém dokumentu
-\item Program provede operaci pro všechny řádky v~souboru
+\item Program, který je vykoná v takovém pořadí v jakém jsou předloženy
+\item Potřebné informace získá program z jedné řádky v textovém dokumentu
+\item Program provede operaci pro všechny řádky v souboru
 \end{itemize}
 \end{frame}
 \begin{frame}
@@ -147,8 +147,8 @@ Jak (a jestli) je možné upravit obrázek tak, aby byla zvýšena kvalita rozpo
 \frametitle{Tesseract a pytesseract}
 \begin{itemize}
 \item Je nutné dobře nainstalovat Tesseract
-\item Je třeba ho nastavit jako příkaz v~cmd
-\item A~propojit s~Pythonem pomocí \emph{pytesseractu}
+\item Je třeba ho nastavit jako příkaz v cmd
+\item A propojit s Pythonem pomocí \emph{pytesseractu}
 \item Poté zavolat Tesseract a uložit jeho výstup do textového souboru
 \end{itemize}
 \end{frame}
@@ -169,7 +169,7 @@ Obrázek-10: Textový soubor vytvořený Tesseractem
 \begin{itemize}
 \item Převede znak nové řádky na mezeru
 \item Rozdělí podle mezer
-\item Ve vzniklém poli hledá slova v~řešení (to také rozdělíme podle mezer)
+\item Ve vzniklém poli hledá slova v řešení (to také rozdělíme podle mezer)
 \item Vypočítá jaké procento slov to nenašlo, tj. byly chybně identifikovány
 \end{itemize}
 \end{frame}
@@ -184,28 +184,11 @@ Obrázek-11: Textový soubor vytvořený evaluačním programem
 \begin{frame}
 \frametitle{Tabulka}
 \centering
-\begin{table}[]
-\begin{tabular}{|l|r|}
-\hline
-Název složky                & Nerozpoznaných slov~v\% \\ \hline
-lines-02(4)-                & 28.484                         \\ \hline
-lines-02(4)-11-31(5,5)-     & 28.773                         \\ \hline
-lines-02(4)-11-31(7,7)-     & 29.147                         \\ \hline
-lines-02(4)-11-32(7,60,60)- & 29.191                         \\ \hline
-lines-02(4)-11-             & 29.213                         \\ \hline
-lines-                      & 29.343                         \\ \hline
-lines-11-                   & 29.363                         \\ \hline
-lines-02(4)-11-32(9,75,75)- & 29.420                         \\ \hline
-lines-02(4)-11-33(7,7,7)-   & 29.592                         \\ \hline
-lines-02(4)-11-31(9,9)-     & 29.606                         \\ \hline
-lines-02(4)-11-32(5,90,90)- & 29.662                         \\ \hline
-lines-02(4)-11-33(9,9,9)-   & 29.695                         \\ \hline
-\end{tabular}
-\end{table}
+\includegraphics[width=1\textwidth]{img/vysledky-tabulka.png}\\
 Obrázek-12: Tabulka nejlepších kombinací
 \end{frame}
 \begin{frame}
-\frametitle{Zjištění}
+\frametitle{Tabulka}
 \centering
 \includegraphics[width=1\textwidth]{img/dotkom.png}\\
 Obrázek-13: Optimální velikost pro Tesseract 
@@ -223,7 +206,7 @@ Obrázek-13: Optimální velikost pro Tesseract
 \frametitle{Děkuji za pozornost!}
 \framesubtitle{Pokud máte zájem, položte dotazy!}
 \centering
-\includegraphics[width=1\textwidth]{img/bmod-medium.png}
+\includegraphics[width=1\textwidth]{img/bmod-medium.png}\\
 %Obrázek-14: Ukázka z B-MOD 
 \end{frame}
 \end{document}
